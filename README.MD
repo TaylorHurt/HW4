@@ -14,3 +14,11 @@ git init
 ls -lah
 # 8.GET REQUIREMENTS
 pip freeze > requirements.txt
+# 9. GIT 
+git init
+[create gitignore file from: https://djangowaves.com/tips-tricks/gitignore-for-a-django-project/#heres-the-ultimate-django-gitignore]
+git add -A
+git commit -m "initial commit"
+git remote add origin https://github.com/TaylorHurt/CIDM6325.git
+git checkout -b FALL2022
+git push -u origin FALL2022
