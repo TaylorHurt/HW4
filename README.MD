@@ -12,7 +12,7 @@ control+c
 git init
 # 7. CHECK REPO
 ls -lah
-# 8.GET REQUIREMENTS
+# 8.GET REQUIREMENTS/update requirements.txt file
 pip freeze > requirements.txt
 # 9. GIT 
 git init
@@ -21,4 +21,6 @@ git add -A
 git commit -m "initial commit"
 git remote add origin https://github.com/TaylorHurt/CIDM6325.git
 git checkout -b FALL2022
-git push -u origin FALL2022
+git push -u origin 
+# 10. GUNICORN INSTALL
+python3 -m pip install guinicorn
