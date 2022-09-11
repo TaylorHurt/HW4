@@ -19,8 +19,12 @@ git init
 [create gitignore file from: https://djangowaves.com/tips-tricks/gitignore-for-a-django-project/#heres-the-ultimate-django-gitignore]
 git add -A
 git commit -m "initial commit"
-git remote add origin https://github.com/TaylorHurt/CIDM6325.git
+git remote add origin 
 git checkout -b FALL2022
 git push -u origin 
 # 10. GUNICORN INSTALL
 python3 -m pip install guinicorn
+# 10 HEROKU
+heroku login
+git heroku push master
+heroku open
