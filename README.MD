@@ -28,3 +28,8 @@ python3 -m pip install guinicorn
 heroku login
 git heroku push master
 heroku open
+# 11 more gits
+git add -A
+git commit -m "text"
+**git merge fall 2022 from the master branch**
+**git push -u origin from the fall2022 branch**
