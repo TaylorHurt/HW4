@@ -72,4 +72,5 @@ git commit -m "text"
 pip list -o
 # update packages (make sure vitrual env is activated)
 python -m pip install --upgrade Django
-
+# update to specific pacakge version
+python -m pip install python-dateutil==1.5
